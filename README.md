@@ -47,7 +47,7 @@ Moodify is a full-stack web application blending fun frontend UI with powerful b
 ---
 ## 📷 Screenshots
 
-- ![Mood Selection Sample](./media/image8.png)  
+- ![Mood Selection Sample](./screenshots/image1.png)  
 - ![Quote Carousel](./media/image10.png)  
 - ![Spotify Playlist](./media/image9.png)  
 - ![Database Schema](./media/image14.png)
