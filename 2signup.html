@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Moodify</title>
+    <link href="6signup.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="8logo.png" alt="logo" height="200" width="200">
+            <span class="tagline">Curate Your Mood, Elevate Your Day ✨</span>
+        </div>
+    </header>
+    <div class="signup-container">
+        <h1>Sign Up to Moodify</h1>
+        <form id="signup-form" action="signup.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+            <label for="regNo">Registration Number</label>
+            <input type="text" name="regNo" id="regNo" placeholder="Enter your registration number" required>
+
+            <label for="year">Year</label>
+            <select name="year" id="year" required>
+                <option value="">Select Year</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+            <label>Gender</label>
+            <div class="radio-group">
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+                <input type="radio" name="gender" value="other" required> Other
+           </div>
+
+            <label>Hobbies</label>
+            <div class="checkbox-group">
+                <input type="checkbox" name="hobby[]" value="reading"> Reading
+                <input type="checkbox" name="hobby[]" value="painting"> Painting
+                <input type="checkbox" name="hobby[]" value="dancing"> Dancing
+                <input type="checkbox" name="hobby[]" value="singing"> Singing
+                <input type="checkbox" name="hobby[]" value="watching movies"> Watching Movies
+            </div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required><br>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="1indexm.php">Go to Moodify</a></p>
+    </div>
+
+    <script src="4extm.js"></script>
+</body>
+
+</html>
+
+
+

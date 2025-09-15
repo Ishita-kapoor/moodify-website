@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodify</title>
+    <link href="5stylem.css" rel="stylesheet">
+</head>
+
+<body onload="checkUser()">
+    <header>
+        <div class="header-container">
+            <img class="logo" src="8logo.png" alt="logo" height="500vh" width="400vw">
+            <span class="tagline">Curate Your Mood, Elevate Your Day ✨</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Moodify! 🌈</h1>
+        <p>Feeling a certain way today? Let Moodify help you find the perfect content to match your emotions...</p>
+
+        <h2>How are you feeling today? 💭</h2>
+
+        <div class="mood-container">
+            <button class="mood-button happy" onclick="selectMood('happy')">😊 Happy</button>
+            <button class="mood-button sad" onclick="selectMood('sad')">😢 Sad</button>
+            <button class="mood-button motivated" onclick="selectMood('motivated')">💪 Motivated</button>
+            <button class="mood-button relaxed" onclick="selectMood('relaxed')">🧘 Relaxed</button>
+        </div>
+
+        <button class="submit-btn" onclick="submitMood()">Find Content</button> 
+        <a href="2signup.html"><button class="submit-btn">Sign Up</button></a>
+        <a href="loginpage.html"><button class="submit-btn">Login</button></a>
+    </div>
+
+    <p class="footer-message">✨ Stay Positive, Stay Inspired ✨</p>
+
+    <script src="4extm.js"></script>
+</body>
+
+</html>

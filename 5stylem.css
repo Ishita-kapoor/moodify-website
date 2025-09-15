@@ -1,0 +1,134 @@
+body {
+    background: rgb(241, 168, 183);
+    background: linear-gradient(90deg, rgba(241, 168, 183, 1) 0%, rgba(255, 220, 248, 1) 0%, rgba(243, 177, 190, 1) 0%, rgba(243, 139, 160, 1) 35%, rgba(74, 144, 226, 1) 100%);
+}
+
+header {
+    padding: 10px 0;
+}
+.logout-button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background: linear-gradient(to right, #ff5858, #f857a6);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+
+.auth-buttons {
+    margin-top: 20px;
+}
+
+.auth-btn {
+    padding: 10px 20px;
+    background-color: #a0c4ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.auth-btn:hover {
+    background-color: #89c2d9;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-container img {
+    max-height: 200px;
+    margin-right: 5px;
+}
+
+.tagline {
+    font-size: 25px;
+    font-weight: 1000;
+    color: #a7004e;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 800px;
+    max-height: 800;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 150);
+}
+h1 {
+    font-size: 28px;
+    color: #FF6781;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.mood-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.mood-button {
+    font-size: 18px;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.happy { background: #FFD166; color: #774936; }
+.sad { background: #7EBCF6; color: #1E3A5F; }
+.motivated { background: #A0E7A0; color: #255F3F; }
+.relaxed { background: #B2A4FF; color: #453C67; }
+.mood-button:hover {
+    transform: scale(1.1);
+}
+.submit-btn {
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    background: #FF6781;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.submit-btn:hover {
+    background: #E05668;
+    transform: scale(1.05);
+}
+.footer-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #772626;
+    margin-top: 100px;
+    font-style: italic;
+    font-weight: 1000;
+}
